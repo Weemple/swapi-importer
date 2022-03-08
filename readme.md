@@ -1,7 +1,7 @@
 ## Install  
 composer require weemple/swapi-importer  
   
-## Command  
+## Commands  
 sail artisan migrate  
 sail artisan swapi:import  
   
