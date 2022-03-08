@@ -24,12 +24,14 @@ class SwapiServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->loadMigrationsFrom(__DIR__ . "/migrations");
+        $this->loadMigrationsFrom(__DIR__ . '/migrations');
 
         if ($this->app->runningInConsole()) {
             $this->commands([
                 ImportData::class
             ]);
         }
+
+        $this->loadRoutesFrom(__DIR__ . '/routes/api.php');
     }
 }
