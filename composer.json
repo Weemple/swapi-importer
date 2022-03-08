@@ -6,6 +6,13 @@
             "Weemple\\SwapiImporter\\": "src/"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Weemple\\SwapiImporter\\SwapiServiceProvider"
+            ]
+        }
+    },
     "authors": [
         {
             "name": "Weemple"
