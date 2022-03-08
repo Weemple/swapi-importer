@@ -1,0 +1,15 @@
+{
+    "name": "weemple/swapi-importer",
+    "description": "Star Wars information importer",
+    "autoload": {
+        "psr-4": {
+            "Weemple\\SwapiImporter\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Weemple"
+        }
+    ],
+    "require": {}
+}
