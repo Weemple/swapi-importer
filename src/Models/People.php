@@ -14,6 +14,6 @@ class People extends Model
 
     public function planet()
     {
-        return $this->belongsTo(\App\Models\Planet::class);
+        return $this->belongsTo(\Weemple\SwapiImporter\Models\Planet::class);
     }
 }
